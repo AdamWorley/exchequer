@@ -1,5 +1,14 @@
-# .goreleaser.yaml
-# Since: v1.18
+project_name: exchequer
+builds:
+  - env: [CGO_ENABLED=0]
+    goos:
+      - linux
+      - windows
+      - darwin
+    goarch:
+      - amd64
+      - arm64
+
 scoops:
 -
   # URL which is determined by the given Token (github or gitlab)
