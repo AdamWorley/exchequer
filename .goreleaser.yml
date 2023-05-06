@@ -9,6 +9,9 @@ builds:
       - amd64
       - arm64
 
+archives:
+  - format: zip
+
 scoops:
 -
   # URL which is determined by the given Token (github or gitlab)
