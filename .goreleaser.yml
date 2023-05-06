@@ -2,12 +2,14 @@ project_name: exchequer
 builds:
   - env: [CGO_ENABLED=0]
     goos:
-      # - linux
+      - linux
       - windows
-      # - darwin
+      - darwin
     goarch:
       - amd64
-      # - arm64
+      - arm64
+    goamd64:
+      - v3
 
 archives:
   - format: zip
