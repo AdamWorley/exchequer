@@ -2,9 +2,9 @@ project_name: exchequer
 builds:
   - env: [CGO_ENABLED=0]
     goos:
-      - linux
+      # - linux
       - windows
-      - darwin
+      # - darwin
     goarch:
       - amd64
       # - arm64
@@ -139,7 +139,7 @@ scoops:
   # The array has to contain a executable/label pair. The third and fourth element are optional.
   #
   # Since GoReleaser v1.17.0.
-  shortcuts: [["exchequer.exe", "exchequer", "ex"]]
+  shortcuts: [["exchequer.exe", "exchequer"]]
 
   # GOAMD64 to specify which amd64 version to use if there are multiple versions
   # from the build section.
