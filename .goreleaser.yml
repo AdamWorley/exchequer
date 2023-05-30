@@ -69,7 +69,7 @@ scoops:
     # Since: v1.18
     git:
       # The Git URL to push.
-      url: 'ssh://git@github.com:AdamWorley/mr-bucket.git'
+      url: 'git@github.com:AdamWorley/mr-bucket.git'
 
       # The SSH private key that should be used to commit to the Git
       # repository.
